@@ -1,0 +1,20 @@
+{
+  "name": "erikgriffin.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "ErikAGriffin"
+  ],
+  "author": "Erik Griffin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "bower": "^1.4.1",
+    "express": "^4.12.3",
+    "express-session": "^1.11.2"
+  }
+}
