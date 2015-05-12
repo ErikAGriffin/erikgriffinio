@@ -6,8 +6,9 @@
   background:cyan;
 }
 
-.rest {
+.front {
   background:url(/images/water.jpg);
   background-size: cover;
   background-position: top center;
+  text-align:center;
 }

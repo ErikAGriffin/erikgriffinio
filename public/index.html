@@ -22,31 +22,35 @@
   <body>
 
     <main id="fullpage">
-      <section class="section rest">
-        Hello, world.
+      <section class="section front">
+        <nav class="pure-g">
+          <li class="pure-u-1 pure-u-sm-1-3 test">
+            <a>Background</a>
+          </li>
+          <li class="pure-u-1 pure-u-sm-1-3 fest">
+            <a>Projects</a>
+          </li>
+          <li class="pure-u-1 pure-u-sm-1-3">
+            <a>Contact</a>
+          </li>
+        </nav>
 
-        <div class="pure-g">
-
-          <article class="pure-u-1 pure-u-sm-1-3 test">
-            BOO!
-          </article>
-          <article class="pure-u-1 pure-u-sm-1-3 fest">
-            Oh noes.
-          </article>
-          <article class="pure-u-1 pure-u-sm-1-3">
-            hm.
-          </article>
-          <img class="pure-img" src="images/image1.jpg" />
-
-        </div>
+        <h1>Erik Griffin</h1>
       </section>
       <section class="section">
         Once a tree.
         Acorn.
-        <p>
+        <div class="pure-g">
+          <article class="pure-u-1 pure-u-sm-1-2">
           So with the scrollOverflow I can have some scrolling within
           a section.. just have to force it to be bigger than the viewport.
-        </p>
+          </article>
+          <article class="pure-u-1 pure-u-sm-1-2">
+          Which I can use jquery to just always have the element be a fixed amount
+          larger than the viewport.  I think the auto-scroll was behaving a little
+          funkily with the slimscroll though.
+          </article>
+        </div>
       </section>
       <section class="section test free">
         Red is the God's color.
@@ -67,7 +71,7 @@
           scrollOverflow: false,
           menu:false,
           recordHistory: false,
-          scrollingSpeed: 1200
+          scrollingSpeed: 1000
         });
       });
     </script>
