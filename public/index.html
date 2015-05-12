@@ -36,7 +36,7 @@
           <article class="pure-u-1 pure-u-sm-1-3">
             hm.
           </article>
-<!--           <img class="pure-img" src="images/image1.jpg" /> -->
+          <img class="pure-img" src="images/image1.jpg" />
 
         </div>
       </section>
@@ -62,8 +62,12 @@
         $('#fullpage').fullpage({
           continuousVertical:true,
           verticalCentered: false,
-          navigation:true,
-          scrollOverflow: true
+          navigation:false,
+          animateAnchor: false,
+          scrollOverflow: false,
+          menu:false,
+          recordHistory: false,
+          scrollingSpeed: 1200
         });
       });
     </script>
