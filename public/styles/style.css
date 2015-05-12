@@ -1,3 +1,13 @@
 .test {
   background:red;
 }
+
+.fest {
+  background:cyan;
+}
+
+.rest {
+  background:url(/images/water.jpg);
+  background-size: cover;
+  background-position: top center;
+}
