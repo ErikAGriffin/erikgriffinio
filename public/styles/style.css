@@ -1,9 +1,18 @@
-.test {
-  background:red;
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Andale Mono', AndaleMono, monospace;
 }
 
-.fest {
-  background:cyan;
+body {
+  font-size: 1.4em;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+nav li {
+  padding: 0.5em 0;
 }
 
 .front {
@@ -11,4 +20,25 @@
   background-size: cover;
   background-position: top center;
   text-align:center;
+  color:white;
+}
+
+#title {
+  width:80%;
+  margin: 0 auto;
+  padding-top: 2.6em;
+}
+
+.boxed {
+  border: 2px solid white;
+  padding: 0em 0.1em 0.1em 0.2em;
+}
+
+
+.test {
+  background:red;
+}
+
+.fest {
+  background:cyan;
 }
