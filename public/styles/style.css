@@ -3,6 +3,10 @@ html, button, input, select, textarea,
     font-family: 'Andale Mono', AndaleMono, monospace;
 }
 
+@media screen and (min-width: 25em) {
+    /* Custom pure-u-xsm-* */
+}
+
 body {
   font-size: 1.4em;
   font-family: 'Times New Roman';
@@ -12,10 +16,6 @@ a {
   color:white;
   text-decoration:none;
   cursor:pointer;
-}
-
-a:hover {
-  text-decoration:underline;
 }
 
 nav li {
@@ -32,19 +32,10 @@ nav li {
   color:white;
 }
 
-@media screen and (min-width: 25em) {
-  .front {
-    /* Custom pure-u-xsm-* */
-  }
+.front a:hover {
+  text-decoration:underline;
 }
 
-.background {
-  background:cyan;
-}
-
-.projects {
-  background:red;
-}
 
 #title {
   width:80%;
@@ -75,18 +66,23 @@ nav li {
 @media screen and (min-width: 35.5em) {
   .photoattribution {
     bottom: 0.5em;
-    right: 1em;
   }
   .cc, .cc:hover {
     top: 0.13em;
   }
 }
 
-.test {
-  width: 80%;
-  margin: 0px auto;
-  padding-top: 50px;
+.background, .background .pure-g [class *= "pure-u"] {
+  background:cyan;
+  font-family: 'Times New Roman';
+}
 
+.background a {
+  color: blue;
+}
+
+.projects {
+  background:#f82ae0;
 }
 
 
