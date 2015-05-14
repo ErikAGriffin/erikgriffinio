@@ -10,6 +10,9 @@ html, button, input, select, textarea,
 body {
   font-size: 1.4em;
   font-family: 'Times New Roman';
+  background:url(/images/water.jpg);
+  background-size:cover;
+  background-position: top center;
 }
 
 a {
@@ -25,9 +28,6 @@ nav li {
 
 .front {
   font-family: 'Andale Mono', AndaleMono, monospace;
-  background:url(/images/water.jpg);
-  background-size: cover;
-  background-position: top center;
   text-align:center;
   color:white;
 }
