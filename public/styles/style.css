@@ -5,6 +5,12 @@ html, button, input, select, textarea,
 
 body {
   font-size: 1.4em;
+  font-family: 'Times New Roman';
+}
+
+a {
+  color:white;
+  text-decoration:none;
 }
 
 a:hover {
@@ -16,11 +22,20 @@ nav li {
 }
 
 .front {
+  font-family: 'Andale Mono', AndaleMono, monospace;
   background:url(/images/water.jpg);
   background-size: cover;
   background-position: top center;
   text-align:center;
   color:white;
+}
+
+.background {
+  background:cyan;
+}
+
+.projects {
+  background:red;
 }
 
 #title {
@@ -34,11 +49,36 @@ nav li {
   padding: 0em 0.1em 0.1em 0.2em;
 }
 
+.photoattribution {
+  font-size:0.6em;
+  margin:0;
+  position:absolute;
+  bottom: -10.6em;
+  right: 1em;
+}
+
+.cc, .cc:hover {
+  font-size:1em;
+  text-decoration: none;
+  position:relative;
+  top: 10.13em;
+}
+
+@media screen and (min-width: 35.5em) {
+  .photoattribution {
+    bottom: 0.5em;
+    right: 1em;
+  }
+  .cc, .cc:hover {
+    top: 0.13em;
+  }
+}
 
 .test {
-  background:red;
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 50px;
+
 }
 
-.fest {
-  background:cyan;
-}
+

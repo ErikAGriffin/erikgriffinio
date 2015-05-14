@@ -20,7 +20,7 @@
 
     <main id="fullpage">
       <section class="section front">
-        <nav class="pure-g">
+        <nav id="test" class="pure-g">
           <li class="pure-u-1 pure-u-sm-1-3">
             <a>Background</a>
           </li>
@@ -34,34 +34,30 @@
 
         <img id="title" src="/images/title.png" />
 
-        <article class="pure-g">
-          <p class="pure-u-1">
-            <span class="boxed">developer</span>
-          </p>
-        </article>
+        <p>
+          <span class="boxed">developer</span>
+        </p>
 
-
+        <p class="photoattribution">
+          <a class="cc" href="https://creativecommons.org/licenses/by/2.0/">&copy;</a>
+          Bilde av <a href="https://www.flickr.com/photos/martindelusenet/">Martin de Lusenet</a>
+        </p>
 
       </section>
-      <section class="section">
-        Once a tree.
-        Acorn.
-        <div class="pure-g">
-          <article class="pure-u-1 pure-u-sm-1-2">
-          So with the scrollOverflow I can have some scrolling within
-          a section.. just have to force it to be bigger than the viewport.
-          </article>
-          <article class="pure-u-1 pure-u-sm-1-2">
-          Which I can use jquery to just always have the element be a fixed amount
-          larger than the viewport.  I think the auto-scroll was behaving a little
-          funkily with the slimscroll though.
-          </article>
-        </div>
+      <section class="section background">
+        <p class="test">
+          I've never been terribly good at presenting myself on paper.
+          I always found that the best way to know someone is to have a
+          genuine converstaion with them.
+        </p>
       </section>
-      <section class="section test free">
+      <section class="section projects">
         Red is the God's color.
         <br />
         You will need their help today.
+      </section>
+      <section class="section contact">
+        Zomg.
       </section>
 
     </main>
@@ -74,9 +70,10 @@
           verticalCentered: false,
           navigation:false,
           animateAnchor: true,
-          scrollOverflow: false,
+          scrollOverflow: true,
           menu:false,
           recordHistory: false,
+          autoScrolling: true,
           scrollingSpeed: 1000
         });
 
