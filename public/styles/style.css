@@ -3,10 +3,6 @@ html, button, input, select, textarea,
     font-family: 'Andale Mono', AndaleMono, monospace;
 }
 
-@media screen and (min-width: 25em) {
-    /* Custom pure-u-xsm-* */
-}
-
 body {
   font-size: 1.4em;
   font-family: 'Times New Roman';
@@ -37,7 +33,7 @@ nav li {
 }
 
 
-#title {
+.title {
   width:80%;
   margin: 0 auto;
   padding-top: 2.6em;
@@ -63,15 +59,6 @@ nav li {
   top: 10.13em;
 }
 
-@media screen and (min-width: 35.5em) {
-  .photoattribution {
-    bottom: 0.5em;
-  }
-  .cc, .cc:hover {
-    top: 0.13em;
-  }
-}
-
 .background, .background .pure-g [class *= "pure-u"] {
   background:cyan;
   font-family: 'Times New Roman';
@@ -85,4 +72,35 @@ nav li {
   background:#f82ae0;
 }
 
+.contact {
+  text-align:center;
+}
 
+.contact .title {
+  padding-top:2.4em;
+}
+
+.contact a img {
+  width:5em;
+}
+
+ul {
+  padding:0;
+}
+
+@media screen and (min-width: 25em) {
+    /* Custom pure-u-xsm-* */
+}
+
+@media screen and (min-width: 35.5em) {
+  .photoattribution {
+    bottom: 0.5em;
+  }
+  .cc, .cc:hover {
+    top: 0.13em;
+  }
+
+  .contact .title {
+    width: 50%;
+  }
+}
