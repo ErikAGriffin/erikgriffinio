@@ -89,6 +89,22 @@
 
         setFontSize();
 
+        var backgroundLink = $("a:contains('Background')");
+        var projectsLink = $("a:contains('Projects')");
+        var contactLink = $("a:contains('Contact')");
+
+        backgroundLink.click(function() {
+          $.fn.fullpage.moveTo(2);
+        });
+
+        projectsLink.click(function() {
+          $.fn.fullpage.moveTo(3);
+        });
+
+        contactLink.click(function() {
+          $.fn.fullpage.moveTo(4);
+        });
+
       });
     </script>
   </body>
