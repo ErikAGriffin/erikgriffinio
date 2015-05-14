@@ -22,6 +22,7 @@ nav li {
   padding: 0.5em 0;
 }
 
+
 .front {
   font-family: 'Andale Mono', AndaleMono, monospace;
   background:url(/images/water.jpg);
@@ -29,6 +30,12 @@ nav li {
   background-position: top center;
   text-align:center;
   color:white;
+}
+
+@media screen and (min-width: 25em) {
+  .front {
+    /* Custom pure-u-xsm-* */
+  }
 }
 
 .background {
