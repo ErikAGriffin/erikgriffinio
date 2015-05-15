@@ -69,7 +69,8 @@ nav li {
 }
 
 .projects {
-  background:#f82ae0;
+  background:#000;
+  color:white;
 }
 
 .contact {
