@@ -21,6 +21,7 @@
   "dependencies": {
     "pure": "~0.6.0",
     "jquery": "~2.1.4",
-    "fullpage.js": "~2.6.5"
+    "fullpage.js": "~2.6.5",
+    "animate.css": "~3.2.6"
   }
 }

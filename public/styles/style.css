@@ -6,6 +6,7 @@ html, button, input, select, textarea,
 body {
   font-size: 1.4em;
   font-family: 'Times New Roman';
+  color:white;
   background:url(../images/water.jpg);
   background-size:cover;
   background-position: top center;
@@ -44,11 +45,20 @@ nav li {
   padding: 0em 0.1em 0.1em 0.2em;
 }
 
+.dark-boxed {
+  display:inline-block;
+  border:0px solid white;
+  padding: 0.4em 0.6em 0.5em 0.6em;
+  background:black;
+  border-radius:10px;
+  background:rgba(0,0,0,0.7);
+}
+
 .photoattribution {
   font-size:0.6em;
   margin:0;
   position:absolute;
-  bottom: -10.6em;
+  bottom: 0.5em;
   right: 1em;
 }
 
@@ -56,7 +66,7 @@ nav li {
   font-size:1em;
   text-decoration: none;
   position:relative;
-  top: 10.13em;
+  top: 0.13em;
 }
 
 .background, .background .pure-g [class *= "pure-u"] {
@@ -75,6 +85,7 @@ nav li {
 
 .contact {
   text-align:center;
+  font-family: 'Andale Mono', AndaleMono, monospace;
 }
 
 .contact .title {
